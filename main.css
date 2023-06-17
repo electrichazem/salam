@@ -35,10 +35,11 @@ header span {
     color: #00AE42;
     font-weight: bold;
     margin-bottom: 0;
+    margin-top: 5px;
 }
 
 .main div {
-    width: 260px;
+    width: 280px;
     margin-top: 10px;
     padding: 5px;
     color: white;
@@ -62,6 +63,13 @@ header span {
 .sec1 {
     background-color: white;
 }
+
+.main-image {
+    display: inline-block;
+    margin-top: 10px;
+    width: 60%;
+}
+
 .sec1 h2 {
     direction: rtl;
     margin-right: 20px;
@@ -451,8 +459,9 @@ header span {
 .subscribe {
     direction: rtl;
     display: flex;
+    flex-direction: column;
     padding: 0px 20px;
-    gap: 90px;
+    gap: 10px;
 }
 
 .subscribe div:nth-child(1) {
