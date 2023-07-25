@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Cairo;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F8F9FA;
+    /* height: 3000px; */
+}
+
+header {
+    direction: rtl;
+    background-color: #002035;
+    padding: 5px 15px;
+}
+
+header span {
+    font-size: 20px;
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main h1 {
+    font-size: 30px;
+    color: #00AE42;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.main div {
+    width: 280px;
+    margin-top: 10px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #002035;
+}
+
+.main a {
+    text-decoration: none;
+}
+.desc {
+    direction: rtl;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.divider {
+    width: 95%;
+    background-color: #002035;
+    margin: 10px auto;
+    height: 2px;
+}
+
+.sec1 {
+    background-color: white;
+}
+
+.main-image {
+    display: inline-block;
+    margin-top: 10px;
+    width: 60%;
+}
+
+.sec1 h2 {
+    direction: rtl;
+    margin-right: 20px;
+}
+
+.sec1 main {
+    padding: 0px 50px;
+    direction: rtl;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sec1 main .container {
+    flex: 1;
+    padding: 10px;
+    background-color: white;
+    direction: rtl;
+    box-shadow: 0 0 35px rgba(140,152,164,.15)!important;
+    border-radius: 10px;
+}
+
+.sec1 main .unlimeted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    width: auto;
+    margin-bottom: 10px;
+    background-color: #FAD776;
+    color: #002035;
+    font-weight: bold;
+
+}
+
+
+.sec1 main .fiber {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    height: 140px;
+}
+
+.sec1 main .price {
+    background-color: #00AE42;
+    font-weight: bold;
+    width: 150px;
+    padding: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px auto; 
+}
+
+.sec1 main .features {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec1 main .feature {
+    width: 70px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #00AE42;
+    text-align: center;
+}
+
+.sec1 main .features2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sec1 main  .features2 {
+    font-size: 14px;
+    color: #002035;
+    font-weight: bold;
+}
+  
+.sec1 main .features2 .green-text {
+    color: #00AE42;
+}
+  
+.sec1 main button {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #00AE42;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: .5s all;
+}
+
+.sec1 main button:hover {
+    box-shadow: 0 0 35px rgba(140,152,164,.15)!important;
+    background-color: #00ae43bd;
+}
+
+
+.sec2 h2 {
+    direction: rtl;
+    margin-right: 20px;
+}
+
+.sec2 main {
+    padding: 0px 50px;
+    direction: rtl;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sec2 main .container {
+    flex: 1;
+    padding: 10px;
+    background-color: white;
+    direction: rtl;
+    box-shadow: 0 0 35px rgba(140,152,164,.15)!important;
+    border-radius: 10px;
+}
+
+.sec2 main .unlimeted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    width: auto;
+    margin-bottom: 10px;
+    background-color: #FAD776;
+    color: #002035;
+    font-weight: bold;
+
+}
+
+
+.sec2 main .fiber {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 140px;
+}
+
+.sec2 main .prices {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.sec2 main .price {
+    flex: 1;
+    background-color: #00AE42;
+    font-weight: bold;
+    /* width: 150px; */
+    padding: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px auto; 
+    position: relative;
+}
+
+.sec2 main .price:nth-child(1):before {
+    content: "3 أشهر";
+    position: absolute;
+    bottom: -25px;
+    font-size: 14px;
+    color: #002035;
+}
+
+.sec2 main .price:nth-child(2):before {
+    content: "6 أشهر";
+    position: absolute;
+    bottom: -25px;
+    font-size: 14px;
+    color: #002035;
+}
+
+.sec2 main .price:nth-child(3):before {
+    content: "12 أشهر";
+    position: absolute;
+    bottom: -25px;
+    font-size: 14px;
+    color: #002035;
+}
+
+.sec2 main .price:nth-child(1):after {
+    content: "+10 أيام مجانا";
+    position: absolute;
+    top: -25px;
+    font-size: 10px;
+    color: white;
+    background-color: #F64E60;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+.sec2 main .price:nth-child(2):after {
+    content: "+1 شهر مجانا";
+    position: absolute;
+    top: -25px;
+    font-size: 10px;
+    color: white;
+    background-color: #F64E60;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+.sec2 main .price:nth-child(3):after {
+    content: "+3 شهر مجانا";
+    position: absolute;
+    top: -25px;
+    font-size: 10px;
+    color: white;
+    background-color: #F64E60;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+/* +++++++++++++ */
+
+.sec2 main .container:nth-child(3)  .price:nth-child(1):before {
+    content: "6 أشهر";
+    position: absolute;
+    bottom: -25px;
+    font-size: 14px;
+    color: #002035;
+}
+
+.sec2 main  .container:nth-child(3) .price:nth-child(2):before {
+    content: "12 أشهر";
+    position: absolute;
+    bottom: -25px;
+    font-size: 14px;
+    color: #002035;
+}
+
+.sec2 main .container:nth-child(3) .price:nth-child(1):after {
+    content: "+ 1 شهر مجاناً";
+    position: absolute;
+    top: -25px;
+    font-size: 10px;
+    color: white;
+    background-color: #F64E60;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+.sec2 main .container:nth-child(3) .price:nth-child(2):after {
+    content: "+3 شهر مجانا";
+    position: absolute;
+    top: -25px;
+    font-size: 10px;
+    color: white;
+    background-color: #F64E60;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+
+
+.sec2 main .features {
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec2 main .feature {
+    width: 70px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #00AE42;
+    text-align: center;
+}
+
+.sec2 main .features2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sec2 main  .features2 {
+    font-size: 14px;
+    color: #002035;
+    font-weight: bold;
+}
+
+.sec2 main .features2 .green-text {
+    color: #00AE42;
+}
+  
+.sec2 main button {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #00AE42;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: .5s all;
+}
+
+.sec2 main button:hover {
+    box-shadow: 0 0 35px rgba(140,152,164,.15)!important;
+    background-color: #00ae43bd;
+}
+
+.sec3 {
+    background-color: white;
+}
+.sec3 h2 {
+    direction: rtl;
+    margin-right: 20px;
+}
+
+.sec3 .features {
+    direction: rtl;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    gap: 10px;
+}
+
+.sec3 .features .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+.sec3 .features .feature img{
+    width: 50px;
+}
+
+.sec3 .features .feature span:nth-child(2) {
+    color: #002035;
+}
+
+.sec3 .features .feature span:nth-child(3) {
+    color: #002035;
+    font-size: 12px;
+    color: #00AE42;
+}
+
+
+.sec3 .router {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+    direction: rtl;
+    gap: 10px;
+}
+
+.sec3 .router img {
+    height: 200px;
+}
+
+.sec3 .router span {
+    flex: 1;
+    padding: 0px 10px;
+}
+
+@media (max-width: 990px) {
+    .sec3 .router {
+        flex-direction: column;
+    }
+    .sec3 .router img {
+        display: inline-block;
+        margin: 0px auto;
+    }
+}
+
+@media (max-width: 490px) {
+
+}
+
+.subscribe {
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 10px;
+}
+
+.subscribe div:nth-child(1) {
+    text-align: center;
+    display: flex;
+    font-size: 22px;
+    font-weight: bold;
+    color: #002035;
+    flex-direction: column;
+}
+
+.subscribe div:nth-child(1) span {
+    font-size: 40px;
+    color: #00AE42;
+}
+
+.subscribe button {
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #00AE42;
+    border: none;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.subscribe div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.subscribe .features .price{
+    font-size: 40px;
+    color: #002035;
+}
+
+.subscribe .feature {
+    font-weight: bold;
+    color: #00AE42;
+}
+
+.subscribe .feature span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #002035;
+}
+
+/* ===================================================== */
